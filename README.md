@@ -5,6 +5,7 @@ This mod is not very useful when used by itself, as it only provides a new set o
 
 ## Recommended mods:
 - [bweapons_modpack ](https://github.com/ClockGen/bweapons_modpack)
+- [gadgets_modpack](https://github.com/ClockGen/gadgets_modpack)
 - [farming_redo](https://notabug.org/TenPlus1/farming) (registers a new hoe if farming is present)
 - [technic](https://github.com/minetest-mods/technic) (integrates new ores with alloying/grinding system in technic)
 - [craftguide](https://github.com/minetest-mods/craftguide) (to see available crafts)
