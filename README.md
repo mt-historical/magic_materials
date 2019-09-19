@@ -1,6 +1,8 @@
 # Magic_materials
 A mod providing shared resources for my other mods: [bweapons_modpack ](https://github.com/ClockGen/bweapons_modpack), [gadgets_modpack](https://github.com/ClockGen/gadgets_modpack) and possibly others.  
 
+![Screenshot](screenshot.png)
+
 This mod is not very useful when used by itself, as it only provides a new set of tools, 2 new ores, some decorations and various craftitems (useless without mods mentioned above).
 
 ## Recommended mods:
