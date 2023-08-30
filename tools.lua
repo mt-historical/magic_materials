@@ -1,6 +1,6 @@
 minetest.register_tool("magic_materials:pick_arcanite", {
     description = "Arcanite Pickaxe",
-    inventory_image = "magic_materials_tool_pickaxe_arcanite.png",
+    inventory_image = "magic_materials_tool_pick_arcanite.png",
     tool_capabilities = {
     full_punch_interval = 0.9,
         max_drop_level=3,
