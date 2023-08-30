@@ -1,4 +1,4 @@
-minetest.register_tool("magic_materials:pickaxe_arcanite", {
+minetest.register_tool("magic_materials:pick_arcanite", {
     description = "Arcanite Pickaxe",
     inventory_image = "magic_materials_tool_pickaxe_arcanite.png",
     tool_capabilities = {
@@ -11,7 +11,8 @@ minetest.register_tool("magic_materials:pickaxe_arcanite", {
     },
     sound = {breaks = "default_tool_breaks"},
     groups = {pickaxe = 1}
-}) 
+})
+minetest.register_alias("magic_materials:pickaxe_arcanite", "magic_materials:pick_arcanite")
 
 minetest.register_tool("magic_materials:shovel_arcanite", {
     description = "Arcanite Shovel",
