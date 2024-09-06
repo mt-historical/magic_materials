@@ -1,5 +1,5 @@
 minetest.register_tool("magic_materials:pick_arcanite", {
-    description = "Arcanite Pickaxe",
+    description = magic_materials.S("Arcanite Pickaxe"),
     inventory_image = "magic_materials_tool_pick_arcanite.png",
     tool_capabilities = {
     full_punch_interval = 0.9,
@@ -15,7 +15,7 @@ minetest.register_tool("magic_materials:pick_arcanite", {
 minetest.register_alias("magic_materials:pickaxe_arcanite", "magic_materials:pick_arcanite")
 
 minetest.register_tool("magic_materials:shovel_arcanite", {
-    description = "Arcanite Shovel",
+    description = magic_materials.S("Arcanite Shovel"),
     inventory_image = "magic_materials_tool_shovel_arcanite.png",
     wield_image = "magic_materials_tool_shovel_arcanite.png^[transformR90",
     tool_capabilities = {
@@ -31,7 +31,7 @@ minetest.register_tool("magic_materials:shovel_arcanite", {
 })
 
 minetest.register_tool("magic_materials:axe_arcanite", {
-    description = "Arcanite Axe",
+    description = magic_materials.S("Arcanite Axe"),
     inventory_image = "magic_materials_tool_axe_arcanite.png",
     tool_capabilities = {
         full_punch_interval = 0.9,
@@ -46,7 +46,7 @@ minetest.register_tool("magic_materials:axe_arcanite", {
 })
 
 minetest.register_tool("magic_materials:sword_arcanite", {
-    description = "Arcanite Sword",
+    description = magic_materials.S("Arcanite Sword"),
     inventory_image = "magic_materials_tool_sword_arcanite.png",
     tool_capabilities = {
         full_punch_interval = 0.7,
@@ -62,9 +62,41 @@ minetest.register_tool("magic_materials:sword_arcanite", {
 
 if minetest.get_modpath("farming") then
     farming.register_hoe("magic_materials:hoe_arcanite", {
-        description = ("Arcanite Hoe"),
+        description = magic_materials.S("Arcanite Hoe"),
         inventory_image = "magic_materials_tool_hoe_arcanite.png",
         max_uses = 200,
         material = "magic_materials:arcanite_crystal"
+    })
+end
+
+if minetest.get_modpath("toolranks") then
+    minetest.override_item("magic_materials:pick_arcanite", {
+        description = toolranks.create_description(magic_materials.S("Arcanite Pickaxe"), 0, 0),
+        original_description = magic_materials.S("Arcanite Pickaxe"),
+        after_use = toolranks.new_afteruse
+    })
+
+    minetest.override_item("magic_materials:shovel_arcanite", {
+        description = toolranks.create_description(magic_materials.S("Arcanite Shovel"), 0, 0),
+        original_description = magic_materials.S("Arcanite Shovel"),
+        after_use = toolranks.new_afteruse
+    })
+
+    minetest.override_item("magic_materials:axe_arcanite", {
+        description = toolranks.create_description(magic_materials.S("Arcanite Axe"), 0, 0),
+        original_description = magic_materials.S("Arcanite Axe"),
+        after_use = toolranks.new_afteruse
+    })
+
+    minetest.override_item("magic_materials:sword_arcanite", {
+        description = toolranks.create_description(magic_materials.S("Arcanite Sword"), 0, 0),
+        original_description = magic_materials.S("Arcanite Sword"),
+        after_use = toolranks.new_afteruse
+    })
+
+    minetest.override_item("magic_materials:hoe_arcanite", {
+        description = toolranks.create_description(magic_materials.S("Arcanite Hoe"), 0, 0),
+        original_description = magic_materials.S("Arcanite Hoe"),
+        after_use = toolranks.new_afteruse
     })
 end

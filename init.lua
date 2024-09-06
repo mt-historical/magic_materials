@@ -1,4 +1,9 @@
-local path = minetest.get_modpath("magic_materials")
+local path = minetest.get_modpath(minetest.get_current_modname())
+
+magic_materials = {}
+
+magic_materials.S = minetest.get_translator(minetest.get_current_modname())
+
 dofile(path .. "/nodes.lua")
 dofile(path .. "/craftitems.lua")
 dofile(path .. "/crafts.lua")
