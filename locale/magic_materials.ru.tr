@@ -1,10 +1,4 @@
 # textdomain: magic_materials
-
-Arcanite Pickaxe=Арканитовая кирка
-Arcanite Shovel=Арканитовая лопата
-Arcanite Axe=Арканитовый топор
-Arcanite Sword=Арканитовый меч
-Arcanite Hoe=Арканитовая мотыга
 Arcanite Crystal=Кристалл арканита
 Arcanite Fragments=Осколок арканита
 Egerum Crystal=Кристалл эгерума
@@ -28,9 +22,6 @@ Egerum Ore=Эгерумовая руда
 Arcanite Block=Арканитовый блок
 Februm Block=Фебрумовый блок
 Egerum Block=Эгерумовый блок
-Arcanite Dust=Арканитовая пыль
-Februm Dust=Фебрумовая пыль
-Egerum Dust=Эгерумовая пыль
 Arcanite Stair=Лестница из арканита
 Arcanite Slab=Плита из арканита
 Inner Arcanite Stair=Внутренняя лестница из арканита
@@ -43,3 +34,11 @@ Egerum Stair=Лестница из эгерума
 Egerum Slab=Плита из эгерума
 Inner Egerum Stair=Внутренняя лестница из эгерума
 Outer Egerum Stair=Внешняя лестница из эгерума
+Arcanite Dust=Арканитовая пыль
+Februm Dust=Фебрумовая пыль
+Egerum Dust=Эгерумовая пыль
+Arcanite Pickaxe=Арканитовая кирка
+Arcanite Shovel=Арканитовая лопата
+Arcanite Axe=Арканитовый топор
+Arcanite Sword=Арканитовый меч
+Arcanite Hoe=Арканитовая мотыга
