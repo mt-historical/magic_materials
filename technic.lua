@@ -1,16 +1,18 @@
+local S = magic_materials.S
+
 --Dusts
 minetest.register_craftitem("magic_materials:arcanite_dust", {
-    description = "Arcanite Dust",
+    description = S("Arcanite Dust"),
     inventory_image = "magic_materials_arcanite_dust.png",
 })
 
 minetest.register_craftitem("magic_materials:februm_dust", {
-    description = "Februm Dust",
+    description = S("Februm Dust"),
     inventory_image = "magic_materials_februm_dust.png",
 })
 
 minetest.register_craftitem("magic_materials:egerum_dust", {
-    description = "Egerum Dust",
+    description = S("Egerum Dust"),
     inventory_image = "magic_materials_egerum_dust.png",
 })
 
